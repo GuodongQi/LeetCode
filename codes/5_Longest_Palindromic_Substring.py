@@ -42,14 +42,11 @@ class Solution:
             for i in range(1, m):
                 state[i][i] = True
                 state[i - 1][i] = s[i] == s[i - 1]
-                state[i][i - 1] = s[i] == s[i - 1]
-            for i in range(1,m-1):
-                state[0][i] = state[0][i + 1] and s[0] == s[i]
 
         inits()
-        for i in range(0, m - 1):
-            for j in range(i, m):
-                state[i][j] = state[i + 1][j - 1] and s[i] == s[j]
+        for i in range(m, 0, -1):
+            for j in range(i, m - 1):
+                state[i - 1][j + 1] = state[i][j] and s[i - 1] == s[j + 1]
 
         for i in range(m):
             for j in range(i, m):
@@ -61,4 +58,4 @@ class Solution:
 
 
 s = Solution()
-print(s.longestPalindrome3("abcba"))
+print(s.longestPalindrome3("eabcbredj"))
