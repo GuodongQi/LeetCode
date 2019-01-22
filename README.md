@@ -14,4 +14,5 @@
 6. [ZigZag_Conversion.py](./codes/6_ZigZag_Conversion.py)
    * 方法1：构建形如解释原因的矩阵，方法较慢
    * 方法2: 建立索引，对每个v字符的位置进行预先定义
-7. 
+7. [Reverse_Integer.py](./codes/7_Reverse_Integer.py)
+   * 没啥意思，lazy的方法反而更快
