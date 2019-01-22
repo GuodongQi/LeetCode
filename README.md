@@ -20,3 +20,5 @@
    * 需要注意特殊情况，比如9-6这种。另外也可以使用.strip方法去除空格
 9. [Palindrome_Number.py](./codes/9_Palindrome_Number.py)
    * 如果不转化成list，可以使用log函数来确定这个数的位数
+10. [Regular_Expression_Matching.py](./codes/10_Regular_Expression_Matching.py)
+    * 太难了，使用动态规划方法，关键在于对于\*的处理，可以这样认为，只要存在\*，那么真值一定和dp[0][j-2]的相同 
