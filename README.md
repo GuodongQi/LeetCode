@@ -18,3 +18,5 @@
    * 没啥意思，lazy的方法反而更快
 8. [String_to_Integer.py](./codes/8_String_to_Integer.py)
    * 需要注意特殊情况，比如9-6这种。另外也可以使用.strip方法去除空格
+9. [Palindrome_Number.py](./codes/9_Palindrome_Number.py)
+   * 如果不转化成list，可以使用log函数来确定这个数的位数
