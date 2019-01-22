@@ -16,3 +16,5 @@
    * 方法2: 建立索引，对每个v字符的位置进行预先定义
 7. [Reverse_Integer.py](./codes/7_Reverse_Integer.py)
    * 没啥意思，lazy的方法反而更快
+8. [String_to_Integer.py](./codes/8_String_to_Integer.py)
+   * 需要注意特殊情况，比如9-6这种。另外也可以使用.strip方法去除空格
