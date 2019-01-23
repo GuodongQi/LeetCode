@@ -19,7 +19,7 @@
 8. [String_to_Integer.py](./codes/8_String_to_Integer.py)
    * 需要注意特殊情况，比如9-6这种。另外也可以使用.strip方法去除空格
 9. [Palindrome_Number.py](./codes/9_Palindrome_Number.py)
-   * 如果不转化成list，可以使用log函数来确定这个数的位数
+   * 如果不转化成list，可以使用log函数来确定这个数的位数 divmod函数
 10. [Regular_Expression_Matching.py](./codes/10_Regular_Expression_Matching.py)（果然有难度）
     * 使用动态规划方法，首先进行序列的补充，比如两个字符串同时添加相同的字符“0”后者“ ”，这样便于初始化
     * 对于 \* 的处理，如果 \*前的字符和指向s的字符相等时：例如 abbbbc 与 ab*c
@@ -31,4 +31,5 @@
 11. [Container_With_Most_Water.py](./codes/11_Container_With_Most_Water.py) 
     * 方法一：暴力循环
     * 方法二：使用两个指针，一个指针指向最左，另一个指向最右，然后移动其中的较短的指针。
-    
+12. [Integer_to_Roman.py](./codes/12_Integer_to_Roman.py)
+    * 建立一个罗马数字列表，也可以把4和9对应的罗马数字加入进去
