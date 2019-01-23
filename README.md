@@ -28,3 +28,7 @@
        * 当\*表示多个时，其真值和dp[i-1][i]相同
     * 如果 \*前的字符和指向s的字符不相同时： 例如 abbbcbbbc 与 ab*c
        * \*只能表示0，其真值和dp[i][j-2]相同
+11. [Container_With_Most_Water.py](./codes/11_Container_With_Most_Water.py) 
+    * 方法一：暴力循环
+    * 方法二：使用两个指针，一个指针指向最左，另一个指向最右，然后移动其中的较短的指针。
+    
