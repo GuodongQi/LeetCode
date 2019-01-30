@@ -35,3 +35,11 @@
     * 建立一个罗马数字列表，
 13. [Roman_to_Integer.py](./codes/13_Roman_to_Integer.py)
     * 同12
+14. [Longest_Common_Prefix.py](./codes/14_Longest_Common_Prefix.py)
+    * 暴力字符循环
+    * 分治法
+    * 二叉树法
+15. [3Sum.py](./codes/15_3Sum.py)
+    * 字典法
+    * 三个指针方法
+    * python 判断是否在列表中很费时间
