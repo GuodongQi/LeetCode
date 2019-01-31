@@ -43,3 +43,5 @@
     * 字典法
     * 三个指针方法
     * python 判断是否在列表中很费时间
+16. [3Sum_Closest.py](./codes/16_3Sum_Closest.py)
+    * 同15，使用三个指针的方法
