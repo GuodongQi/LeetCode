@@ -45,3 +45,6 @@
     * python 判断是否在列表中很费时间
 16. [3Sum_Closest.py](./codes/16_3Sum_Closest.py)
     * 同15，使用三个指针的方法
+17. [Letter_Combinations_of_a_Phone_Number.py](./codes/17_Letter_Combinations_of_a_Phone_Number.py)
+    * 没什么好说的，我用循环居然faster 100%
+    
