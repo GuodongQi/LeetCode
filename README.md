@@ -47,4 +47,5 @@
     * 同15，使用三个指针的方法
 17. [Letter_Combinations_of_a_Phone_Number.py](./codes/17_Letter_Combinations_of_a_Phone_Number.py)
     * 没什么好说的，我用循环居然faster 100%
-    
+18. [4Sum.py](./codes/18_4Sum.py)
+    * 可以在15的基础上做, 排名第一的方法f复杂度和我相同，但它只需79ms，向不清楚原因，估计是过早的sop的原因节省了很多时间
