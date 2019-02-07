@@ -56,3 +56,13 @@
     * 构建字典,使用堆栈，先进后出
 21. [Merge_Two_Sorted_Lists](./codes/21_Merge_Two_Sorted_Lists.py) 
     * 使用递归的方法或迭代的方法   
+22. [Generate_Parentheses](./codes/22_Generate_Parentheses.py)
+    * 递归方法，应该重点掌握
+23. [Merge_k_Sorted_Lists](./codes/23_Merge_k_Sorted_Lists.py)
+    * 暴力循环
+    * 分治法
+    * one by one 合并
+    * 使用优先级队列
+    * 将所有的数变成一维list，然后sorted函数
+    
+    
