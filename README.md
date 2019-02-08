@@ -64,5 +64,7 @@
     * one by one 合并
     * 使用优先级队列
     * 将所有的数变成一维list，然后sorted函数
-    
+24. [Swap_Nodes_in_Pairs](./codes/24_Swap_Nodes_in_Pairs.py)
+    * pre->a->b->b.next 变成 pre->b->a->b.next
+    最好是列出这个式子
     
