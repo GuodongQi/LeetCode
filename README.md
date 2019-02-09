@@ -72,4 +72,6 @@
     * 其他方法导师再看县展坑
 26. [Remove_Duplicates_from_Sorted_Array](./codes/26_Remove_Duplicates_from_Sorted_Array.py)
     * 简单体没什么好说的，注意看两种方法，答案那种方法号
+27. [Remove_Element](./codes/27_Remove_Element.py)
+    * 同上，使用两指针方法
     
