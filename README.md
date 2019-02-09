@@ -67,4 +67,7 @@
 24. [Swap_Nodes_in_Pairs](./codes/24_Swap_Nodes_in_Pairs.py)
     * pre->a->b->b.next 变成 pre->b->a->b.next
     最好是列出这个式子
+25. [Reverse_Nodes_in_k](./codes/25_Reverse_Nodes_in_k-Group.py)
+    * 截取前k个listnode，对每组的lkistnode进行反转
+    * 其他方法导师再看县展坑
     
