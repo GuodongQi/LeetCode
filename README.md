@@ -74,4 +74,7 @@
     * 简单体没什么好说的，注意看两种方法，答案那种方法号
 27. [Remove_Element](./codes/27_Remove_Element.py)
     * 同上，使用两指针方法
+28. [Implement_strStr](./codes/28_Implement_strStr().py)
+    * easy题，没啥好说的，看方法二，太优秀了
+    
     
