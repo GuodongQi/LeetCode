@@ -76,5 +76,7 @@
     * 同上，使用两指针方法
 28. [Implement_strStr](./codes/28_Implement_strStr().py)
     * easy题，没啥好说的，看方法二，太优秀了
-    
+29. [Divide_Two_Integers](./codes/29_Divide_Two_Integers.py) 
+    * 主要是使用移位的方法，然后每次相减大于零时，说明还可以移位   
+
     
