@@ -78,5 +78,9 @@
     * easy题，没啥好说的，看方法二，太优秀了
 29. [Divide_Two_Integers](./codes/29_Divide_Two_Integers.py) 
     * 主要是使用移位的方法，然后每次相减大于零时，说明还可以移位   
-
-    
+30. [Substring_with_Concatenation_of_All_Words](./codes/30_Substring_with_Concatenation_of_All_Words.py)
+    * 方法一：使用两个字典，第一个字典储存words，其中key是word，value是word的出现次数。然后计算每个子字符串，字符串长度为word的长度
+    每个子字符串中word的次数如果和dict1的value相同，则说明符合
+    * 方法二：
+31. [Next_Permutation](./codes/31_Next_Permutation.py)
+    * 答案真是太奇妙了，看动图吧
