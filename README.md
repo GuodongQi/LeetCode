@@ -84,3 +84,6 @@
     * 方法二：
 31. [Next_Permutation](./codes/31_Next_Permutation.py)
     * 答案真是太奇妙了，看动图吧
+
+50. [Pow[x, n]](./codes/50_Pow_x_n.py)
+    * 使用递归实现
