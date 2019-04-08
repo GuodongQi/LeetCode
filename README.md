@@ -84,6 +84,9 @@
     * 方法二：
 31. [Next_Permutation](./codes/31_Next_Permutation.py)
     * 答案真是太奇妙了，看动图吧
-
+49. [Categorize_by_Sorted_String](./codes/49_Categorize_by_Sorted_String.py)
+    * 方法一：遍历，对每个单词进行排序，然后对比 
+    * 方法二：每个字母对应一个数字，设置26个空格，如果有字母a，则在0出加一，最后比较有多少个是完全一样的
+    * using dict.setdefault method 
 50. [Pow[x, n]](./codes/50_Pow_x_n.py)
     * 使用递归实现
