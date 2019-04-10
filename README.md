@@ -84,9 +84,11 @@
     * 方法二：
 31. [Next_Permutation](./codes/31_Next_Permutation.py)
     * 答案真是太奇妙了，看动图吧
+46. [Permutations](./codes/46_Permutations.py)
+    * same as 47
 47. [Permutations_II](./codes/47_Permutations_II.py)
     * use dict keys to reduce duplicate
-    * other method to be 
+    * other method to be, the line "break" is beautiful 
 48. [Rotate_Image](./codes/48_Rotate_Image.py)
     * ~i = -i - 1  often used in List 
     * zip method and zip(*) method 
