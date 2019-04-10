@@ -84,6 +84,9 @@
     * 方法二：
 31. [Next_Permutation](./codes/31_Next_Permutation.py)
     * 答案真是太奇妙了，看动图吧
+45. [Jump_Game_II](./codes/45_Jump_Game_II.py)
+    * dynamic programming is running out of mem
+    * bfs
 46. [Permutations](./codes/46_Permutations.py)
     * same as 47
 47. [Permutations_II](./codes/47_Permutations_II.py)
