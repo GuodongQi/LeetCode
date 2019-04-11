@@ -84,6 +84,9 @@
     * 方法二：
 31. [Next_Permutation](./codes/31_Next_Permutation.py)
     * 答案真是太奇妙了，看动图吧
+    
+43. [Multiply_Strings](./codes/43_Multiply_Strings.py)
+    * understanding mul ,just like int
 45. [Jump_Game_II](./codes/45_Jump_Game_II.py)
     * dynamic programming is running out of mem
     * BFS
