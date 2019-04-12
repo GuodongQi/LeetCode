@@ -84,7 +84,17 @@
     * 方法二：
 31. [Next_Permutation](./codes/31_Next_Permutation.py)
     * 答案真是太奇妙了，看动图吧
-    
+35. [Search_Insert_Position](codes/35_Search_Insert_Position.py)
+    * bruce force
+    * binary search 
+38. [38_Count_and_Say](codes/38_Count_and_Say.py)
+    * easy, bruce force
+42. [Trapping_Rain_Water](codes/42_Trapping_Rain_Water.py)
+    * two points(my method, and range for maxheight. time limits: maxheight * width / 2 should range maxheight
+    * brute force: for one height, find max and min height around it, and then, ans += min(left_max,right_max)-it
+    * dynamic programming: store max of left and min height
+    * stack:(not understand yet) we can use stack to keep track of the bars that are bounded by longer bars and hence, may store water.
+    * two points: if left_max < right_max the move left, else move right
 43. [Multiply_Strings](./codes/43_Multiply_Strings.py)
     * understanding mul ,just like int
 45. [Jump_Game_II](./codes/45_Jump_Game_II.py)
