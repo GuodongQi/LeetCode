@@ -84,12 +84,15 @@
     * 方法二：
 31. [Next_Permutation](./codes/31_Next_Permutation.py)
     * 答案真是太奇妙了，看动图吧
+33. [Search_in_Rotated_Sorted_Array](./codes/33_Search_in_Rotated_Sorted_Array.py)
+    * binary search 
+    * can find the index of min num
 35. [Search_Insert_Position](codes/35_Search_Insert_Position.py)
     * bruce force
     * binary search 
-38. [38_Count_and_Say](codes/38_Count_and_Say.py)
+38. [38_Count_and_Say](./codes/38_Count_and_Say.py)
     * easy, bruce force
-42. [Trapping_Rain_Water](codes/42_Trapping_Rain_Water.py)
+42. [Trapping_Rain_Water](./codes/42_Trapping_Rain_Water.py)
     * two points(my method, and range for maxheight. time limits: maxheight * width / 2 should range maxheight
     * brute force: for one height, find max and min height around it, and then, ans += min(left_max,right_max)-it
     * dynamic programming: store max of left and min height
