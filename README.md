@@ -87,6 +87,8 @@
 33. [Search_in_Rotated_Sorted_Array](./codes/33_Search_in_Rotated_Sorted_Array.py)
     * binary search 
     * can find the index of min num
+34. [Find_First_and_Last_Position_of_Element_in_Sorted_Array](codes/34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.py)
+    * firstly find the first index, if nums[mid] == target, we should assign right = mid - 1 and in the meanwhile, we should write the mid index, then we use the same method to find the right target
 35. [Search_Insert_Position](codes/35_Search_Insert_Position.py)
     * bruce force
     * binary search 
