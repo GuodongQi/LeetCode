@@ -94,6 +94,9 @@
     * binary search 
 38. [38_Count_and_Say](./codes/38_Count_and_Say.py)
     * easy, bruce force
+39. [Combination_Sum](codes/39_Combination_Sum.py)
+    * recursion: slow and not easy to delete duplication
+    * backtracking example
 42. [Trapping_Rain_Water](./codes/42_Trapping_Rain_Water.py)
     * two points(my method, and range for maxheight. time limits: maxheight * width / 2 should range maxheight
     * brute force: for one height, find max and min height around it, and then, ans += min(left_max,right_max)-it
