@@ -1,6 +1,6 @@
 # LeetCode
 1. [two_sum.py](./codes/1_two_sum.py)  
-   * 创建一个字典，判断字典里是否含有target-nums[i]  
+   * 创建一个字典，判断字典里是否含有target-nums\[i]  
 2. [add_two_nums.py](./codes/2_add_two_nums.py)  
    * 主要是对迭代器的考察  
 3. [Longest_Substring_Without_Repeating_Characters.py](./codes/3_Longest_Substring_Without_Repeating_Characters.py)  
@@ -23,11 +23,11 @@
 10. [Regular_Expression_Matching.py](./codes/10_Regular_Expression_Matching.py)（果然有难度）
     * 使用动态规划方法，首先进行序列的补充，比如两个字符串同时添加相同的字符“0”后者“ ”，这样便于初始化
     * 对于 \* 的处理，如果 \*前的字符和指向s的字符相等时：例如 abbbbc 与 ab*c
-       * 当\*表示0时，其真值和dp[i][j-2]相同
-       * 当\*表示1时，其真值和dp[i][i-1]相同
-       * 当\*表示多个时，其真值和dp[i-1][i]相同
+       * 当\*表示0时，其真值和dp\[i]\[j-2]相同
+       * 当\*表示1时，其真值和dp\[i]\[i-1]相同
+       * 当\*表示多个时，其真值和dp\[i-1]\[i]相同
     * 如果 \*前的字符和指向s的字符不相同时： 例如 abbbcbbbc 与 ab*c
-       * \*只能表示0，其真值和dp[i][j-2]相同
+       * \*只能表示0，其真值和dp\[i]\[j-2]相同
 11. [Container_With_Most_Water.py](./codes/11_Container_With_Most_Water.py) 
     * 方法一：暴力循环
     * 方法二：使用两个指针，一个指针指向最左，另一个指向最右，然后移动其中的较短的指针。
@@ -84,6 +84,11 @@
     * 方法二：
 31. [Next_Permutation](./codes/31_Next_Permutation.py)
     * 答案真是太奇妙了，看动图吧
+32. [Longest_Valid_Parentheses](./codes/32_Longest_Valid_Parentheses.py)
+    * brute force: two points, from every left to right judge whether valid
+    * Using Dynamic Programming:  too hard. We make use of a dp array where ith element of dp represents the length of the longest valid substring ending at ith index.
+    * Using Stack: hard
+    * two counters left and right, easy: Two traversals of the string
 33. [Search_in_Rotated_Sorted_Array](./codes/33_Search_in_Rotated_Sorted_Array.py)
     * binary search 
     * can find the index of min num
