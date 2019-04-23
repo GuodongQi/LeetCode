@@ -2,19 +2,24 @@ class Solution:
     def permuteUnique(self, nums: 'List[int]') -> 'List[List[int]]':
         nums = sorted(nums)
 
-        def myiter(mynums):
-            if not len(mynums):
-                return []
-            if len(mynums) == 1:
-                return [mynums]
-            ans = myiter(mynums[:-1])
-            new_ans = []
-            for per_ans in ans:
-                for i in range(len(per_ans) + 1):
-                    new_ans.append(per_ans[:i] + [mynums[-1]] + per_ans[i:])
-                    if i < len(per_ans) and per_ans[i] == mynums[-1]:
-                        break
-            return new_ans
+        # def dfs(nums, index, path, res):
+        #     for i in range(index, len(nums)):
+        #
+        #     return
+
+        # def myiter(mynums):
+        #     if not len(mynums):
+        #         return []
+        #     if len(mynums) == 1:
+        #         return [mynums]
+        #     ans = myiter(mynums[:-1])
+        #     new_ans = []
+        #     for per_ans in ans:
+        #         for i in range(len(per_ans) + 1):
+        #             new_ans.append(per_ans[:i] + [mynums[-1]] + per_ans[i:])
+        #             if i < len(per_ans) and per_ans[i] == mynums[-1]:
+        #                 break
+        #     return new_ans
 
         # def myiter(mynums):
         #     if not len(mynums):
