@@ -104,6 +104,11 @@
     * backtracking example
 40. [Combination_Sum_II](codes/40_Combination_Sum_II.py)
     * dfs condition, if j > 0 or if j > index are different
+41. [First_Missing_Positive](codes/41_First_Missing_Positive.py)
+    * the key is swap: 
+    <br>  tmp = nums\[i] 
+    <br>  nums\[i] = nums\[tmp - 1] 
+    <br>  nums\[tmp - 1] = tmp
 42. [Trapping_Rain_Water](./codes/42_Trapping_Rain_Water.py)
     * two points(my method, and range for maxheight. time limits: maxheight * width / 2 should range maxheight
     * brute force: for one height, find max and min height around it, and then, ans += min(left_max,right_max)-it
