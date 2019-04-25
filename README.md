@@ -97,6 +97,8 @@
 35. [Search_Insert_Position](codes_1-50/35_Search_Insert_Position.py)
     * bruce force
     * binary search 
+36. [Valid_Sudoku](codes_1-50/36_Valid_Sudoku.py)
+    * the key is create a list to store number
 38. [38_Count_and_Say](./codes_1-50/38_Count_and_Say.py)
     * easy, bruce force
 39. [Combination_Sum](codes_1-50/39_Combination_Sum.py)
