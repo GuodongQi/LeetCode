@@ -137,3 +137,6 @@
     * using dict.setdefault method 
 50. [Pow[x, n]](./codes_1-50/50_Pow_x_n.py)
     * 使用递归实现
+53. [Maximum_Subarray](codes_51-100/53_Maximum_Subarray.py)
+    * dp
+    * max_sum and sum 
