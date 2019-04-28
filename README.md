@@ -140,3 +140,5 @@
 53. [Maximum_Subarray](codes_51-100/53_Maximum_Subarray.py)
     * dp
     * max_sum and sum 
+58. [Length_of_Last_Word](codes_51-100/58_Length_of_Last_Word.py)
+    * easy 
