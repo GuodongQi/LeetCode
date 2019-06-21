@@ -37,7 +37,33 @@
 14. [Valid_Sudoku](by_tags/数组/14_Valid_Sudoku.cpp)
     * 每一行，每一列，每个cell都进行检测
 15. [Trapping_Rain_Water](by_tags/数组/15_Trapping_Rain_Water.cpp)
-    *     
-
+    * 对于每个柱子找到左右两边的最大最小值。 
+    * 使用stack
+16. [Rotate_Image](by_tags/数组/16_Rotate_Image.cpp)
+    * 首先沿着中心线翻转，然后沿着主对角线翻转。
+    * 或者首先沿河次对角线翻转，然后沿着中心线翻转。
+17. [Plus_one](by_tags/数组/17_Plus_one.cpp)
+    * c.begin() 返回一个迭代器，它指向容器c的第一个元素
+    * c.end() 返回一个迭代器，它指向容器c的最后一个元素的下一个位置
+    * c.rbegin() 返回一个逆序迭代器，它指向容器c的最后一个元素
+    * c.rend() 返回一个逆序迭代器，它指向容器c的第一个元素前面的位置
+18. [Climbing_Stairs](by_tags/数组/18_Climbing_Stairs.cpp)
+    * 递归，太慢，采用迭代法
+    * 利用通项公式，此方法最快。
+19. [Gray_Code](by_tags/数组/19_Gray_Code.cpp)
+    * 数学公式，见详解
+    * 递归。先计算第n-1位的，然后镜像。(*it)[0]要这样加括号。
+    * a<<n 将a的二进制数左移n位，右补0. 相当于2次方。
+    * reserve是容器预留空间，但并不真正创建元素对象，在创建对象之前，不能引用容器内的元素，因此当加入新的元素时，需要用push_back()/insert()函数。
+    * 说实话，第二个方法原理懂了，代码没看懂。
+20. [Set_Matrix_Zeroes](by_tags/数组/20_Set_Matrix_Zeroes.cpp)
+    * 要求空间复杂度在m+n之间。
+    * 可以设置两个变量分别储存每一行或列是否含有0
+    * 也可以只设置一个行和列变量，来判断是否有0
+21. [Gas_Station](by_tags/数组/21_Gas_Station.cpp)
+    * 如果所有的gas和大于所有的cost和，那么肯定能够走完。所以找两个值，一个储存所有路径的和，另一个储存某sum和大于0的索引
+22. []()
+    * 
+    
 ## 数组类
 1. 2 
