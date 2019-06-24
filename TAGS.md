@@ -72,8 +72,21 @@
     * 异或的拓展。理解方式，创建一个循环方法，比如00->01->10(00)。
     第一位的变化规律0,1,0,0,1,0 中间0->0，当第二位是1时可以将其赋值为0，不使用异或。
     第二位的变化规律0,0,1,0,0,1 从0->0，因为事先计算好了第一位，所以当计算好的第一位是1时，可以不使用异或，直接赋值0；
-    
-    
-    
+      
 ## 数组类
-1. 2 
+1. [Add_Two_Numbers](by_tags/单链表/1_Add_Two_Numbers.cpp)
+    * 有几点需要注意的地方：？的使用。另外对于nullptr的判断，不需要再额外拉出来，如果是nullptr将其设为0即可
+2. [Reverse_Linked_List_II](by_tags/单链表/2_Reverse_Linked_List_II.cpp) 
+    * 头插法
+3. [Partition_List](by_tags/单链表/3_Partition_List.cpp)
+    * 两个指针，一个指针指向小的，另一个指针指向大的。
+4. [Remove_Duplicates_from_Sorted_List](by_tags/单链表/4_Remove_Duplicates_from_Sorted_List.cpp)
+    * 没啥好说的.参考代码里有delete，用来释放内存
+5. [Remove_Duplicates_from_Sorted_List_II](by_tags/单链表/5_Remove_Duplicates_from_Sorted_List_II.cpp)
+    * 初始化时。使用INT_MIN比较好
+    * 使用delete来进行删除节点操作；
+6. [rotate_list](by_tags/单链表/6_rotate_list.cpp)    
+    * 头尾相连，然后循环
+    * 最好不要在head上操作，参考代码中新的头和断开环的操作值得学习
+7. [remove_nth_node_from_end_of_list](by_tags/单链表/7_remove_nth_node_from_end_of_list.cpp)
+    * 答案很奇妙。两个指针，一起走；
