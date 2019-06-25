@@ -73,7 +73,7 @@
     第一位的变化规律0,1,0,0,1,0 中间0->0，当第二位是1时可以将其赋值为0，不使用异或。
     第二位的变化规律0,0,1,0,0,1 从0->0，因为事先计算好了第一位，所以当计算好的第一位是1时，可以不使用异或，直接赋值0；
       
-## 数组类
+## 单链表类
 1. [Add_Two_Numbers](by_tags/单链表/1_Add_Two_Numbers.cpp)
     * 有几点需要注意的地方：？的使用。另外对于nullptr的判断，不需要再额外拉出来，如果是nullptr将其设为0即可
 2. [Reverse_Linked_List_II](by_tags/单链表/2_Reverse_Linked_List_II.cpp) 
@@ -90,3 +90,20 @@
     * 最好不要在head上操作，参考代码中新的头和断开环的操作值得学习
 7. [remove_nth_node_from_end_of_list](by_tags/单链表/7_remove_nth_node_from_end_of_list.cpp)
     * 答案很奇妙。两个指针，一起走；
+8. [Swap_Nodes_in_Pairs](by_tags/单链表/8_Swap_Nodes_in_Pairs.cpp)
+    * 关键是定义三个变量，一个是之前指针，一个是当前指针，一个是之后指针，然后进行交转。
+9. [Reverse_Nodes_in_k_Group](by_tags/单链表/9_Reverse_Nodes_in_k_Group.cpp)
+    * 翻转链表，就是相当于把链表的指针方向改一改；(使用三个指针，完成翻转后，head节点指向nullptr，返回的应该是pred指针)
+10. [Copy_List_with_Random_Pointer](by_tags/单链表/10_Copy_List_with_Random_Pointer.cpp)
+    * 两张表存在关系，就是每个节点先创建两次，然后拆分
+11. [Linked_List_Cycle](by_tags/单链表/11_Linked_List_Cycle.cpp)
+    * hash表
+    * 两个指针，一个指针走的慢，一个指针走得快, 如果相遇，说明有环；
+12. [Linked_List_Cycle_II](by_tags/单链表/12_Linked_List_Cycle_II.cpp)
+    * 利用数学公式，解法很经典。
+13. [Reorder_List](by_tags/单链表/13_Reorder_List.cpp)
+    * 从中间分隔使用slow和fast的模式
+    * 翻转操作，注意第31行，如果放在32行后面，将导致超时，因为32行有两个next
+14. [LRU_Cache](by_tags/单链表/14_LRU_Cache.cpp)
+    * 这一题我选择死亡
+    
