@@ -106,4 +106,19 @@
     * 翻转操作，注意第31行，如果放在32行后面，将导致超时，因为32行有两个next
 14. [LRU_Cache](by_tags/单链表/14_LRU_Cache.cpp)
     * 这一题我选择死亡
-    
+
+## 字符串
+
+1. [Valid_Palindrome](by_tags/字符串/1_Valid_Palindrome.cpp)
+    * transform 第1和2个参数是数据起始和结束位置（迭代器, 参数3是写入目标的起始位置,参数4是执行的操作（函数）
+    * tolower() 将大写字母改写成小写字母
+    * prev 主要指当前指针的前一个元素，常常和s.end搭配。
+    * isalnum用来判断是不是字符和数字，如果是则返回1,否则返回0;
+    * 另外while的判断语句还需要注意,left小于right,而不能是left!=right
+2. [Implement_strStr](by_tags/字符串/2_Implement_strStr().cpp)
+    * 暴力算法已经够了,o(m*n)时间复杂度,空间复杂度为1;
+    * KMP算法,关于next的求法理解,请看https://blog.csdn.net/qq_37969433/article/details/82947411
+3. [String_to_Integer](by_tags/字符串/3_String_to_Integer(atoi).cpp)
+    * 细节题.略
+4. [Add_Binary](by_tags/字符串/4_ Add_Binary.cpp)   
+    * result.insert(result.begin(), val + '0'); 头插入,另外也可以用reverse操作
