@@ -143,4 +143,7 @@
 13. [Group_Anagrams](by_tags/字符串/13_Group_Anagrams.cpp)
     * 使用hash_map, 
     * 因为字母只有26个,所以可以使用26个key,每个value储存字母出现的次数.
-    * test
+14. [Simplify_Path](by_tags/字符串/14_Simplify_Path.cpp)
+    * 可以使用find函数来简化. 另外关于vector转string, 可以使用stringstream定义变量,染红使用流输出;
+15. [Length_of_Last_Word](by_tags/字符串/15_Length_of_Last_Word.cpp)
+    * 偷懒,从后往前,找到第一个是字符的索引,然后,从这个索引再往前,找到第一个不是字符的索引,两个索引相减就对了.
