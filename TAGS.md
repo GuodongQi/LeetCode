@@ -120,5 +120,27 @@
     * KMP算法,关于next的求法理解,请看https://blog.csdn.net/qq_37969433/article/details/82947411
 3. [String_to_Integer](by_tags/字符串/3_String_to_Integer(atoi).cpp)
     * 细节题.略
-4. [Add_Binary](by_tags/字符串/4_ Add_Binary.cpp)   
+4. [Add_Binary](by_tags/字符串/4_Add_Binary.cpp)   
     * result.insert(result.begin(), val + '0'); 头插入,另外也可以用reverse操作
+5. [Longest_Palindromic_Substring](by_tags/字符串/5_Longest_Palindromic_Substring.cpp)
+    * 动态规划的方法, fill_n函数的应用, substr 的应用
+    * 了解Manacher's Algorithm的方法 https://segmentfault.com/a/1190000003914228
+6. [Regular_Expression_Matching](by_tags/字符串/6_Regular_Expression_Matching.cpp)
+    * 动态规划,多种情况讨论
+7. [Wildcard_Matching](by_tags/字符串/7_Wildcard_Matching.cpp)
+    * 和上一题类似,主要是遇到\*时,应该怎么做
+8. [Longest_Common_Prefix](by_tags/字符串/8_Longest_Common_Prefix.cpp)
+    * 纵向扫描 横向扫描 然后还可以分治法
+9. [Valid_Number](by_tags/字符串/9_Valid_Number.cpp)
+    * 细节题, 被称为最糟糕的题
+10. [Integer_to_Roman](by_tags/字符串/10_Integer_to_Roman.cpp)
+    * 把整数都列出来
+11. [Roman_to_Integer](by_tags/字符串/11_Roman_to_Integer.cpp)
+    * 和上一题类似
+    * 从后往前,如果当前的字符比前面的字符小,说明应该是相减操作.
+12. [Count_and_Say](by_tags/字符串/12_Count_and_Say.cpp)
+    * 主要是题意的理解.
+13. [Group_Anagrams](by_tags/字符串/13_Group_Anagrams.cpp)
+    * 使用hash_map, 
+    * 因为字母只有26个,所以可以使用26个key,每个value储存字母出现的次数.
+    
