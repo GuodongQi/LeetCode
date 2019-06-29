@@ -36,9 +36,10 @@
     另外关于判断最小的n个（不出现）数中，采取hash表，具体看代码（这也是创新了吧）
 14. [Valid_Sudoku](by_tags/数组/14_Valid_Sudoku.cpp)
     * 每一行，每一列，每个cell都进行检测
-15. [Trapping_Rain_Water](by_tags/数组/15_Trapping_Rain_Water.cpp)
-    * 对于每个柱子找到左右两边的最大最小值。 
+15. <a name="shuzu15"></a>[Trapping_Rain_Water](by_tags/数组/15_Trapping_Rain_Water.cpp)
+    * 对于每个柱子找到左右两边的最大最小值. 动态规划.
     * 使用stack
+    * 理论上第二个方法会好,但实际运行的时候第一个方法运行时间是4ms,第二个方法的运行时间是8ms
 16. [Rotate_Image](by_tags/数组/16_Rotate_Image.cpp)
     * 首先沿着中心线翻转，然后沿着主对角线翻转。
     * 或者首先沿河次对角线翻转，然后沿着中心线翻转。
@@ -147,3 +148,18 @@
     * 可以使用find函数来简化. 另外关于vector转string, 可以使用stringstream定义变量,染红使用流输出;
 15. [Length_of_Last_Word](by_tags/字符串/15_Length_of_Last_Word.cpp)
     * 偷懒,从后往前,找到第一个是字符的索引,然后,从这个索引再往前,找到第一个不是字符的索引,两个索引相减就对了.
+
+## 栈
+1. [Valid_Parentheses](by_tags/栈/1_Valid_Parentheses.cpp)
+    * 典型先进先出
+2. [Longest_Valid_Parentheses](by_tags/栈/2_Longest_Valid_Parentheses.cpp)
+    * 动规
+    * 两遍扫描,从左往右扫描一遍,然后从右扫描一遍
+    * 使用栈,和上一题不同,这里因为只有小括号,所以可以储存(的索引值. 另外预先push一个-1,这样可以解决首字符是')'的问题;
+    当遇到)时不管如何先弹出,如果弹出后stack为空,说明')'比'('多了,此时还应该push当前的索引. 如果弹出后stack不为空,说明有匹配,此时计算长度.
+3. [Largest_Rectangle_in_Histogram](by_tags/栈/3_Largest_Rectangle_in_Histogram.cpp)
+    * 和 数组类的第15题比较类似[这个](#shuzu15)
+    * 在heights后push_back一个0;(以后理解))
+4. [Evaluate_Reverse_Polish_Notation](by_tags/栈/4_Evaluate_Reverse_Polish_Notation.cpp)
+    * 用stack完美解决
+    
