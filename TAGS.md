@@ -162,4 +162,28 @@
     * 在heights后push_back一个0;(以后理解))
 4. [Evaluate_Reverse_Polish_Notation](by_tags/栈/4_Evaluate_Reverse_Polish_Notation.cpp)
     * 用stack完美解决
+
+## 二叉树的遍历
+1. [Binary_Tree_Preorder_Traversal](by_tags/树/二叉树的遍历/1_Binary_Tree_Preorder_Traversal.cpp)
+    * stack,主要是morries遍历
+2. [Binary_Tree_Inorder_Traversal](by_tags/树/二叉树的遍历/2_Binary_Tree_Inorder_Traversal.cpp)
+    * 和1很相似
+3. [Binary_Tree_Postorder_Traversal](by_tags/树/二叉树的遍历/3_Binary_Tree_Postorder_Traversal.cpp)
+    * hard
+4. [Binary_Tree_Level_Order_Traversal](by_tags/树/二叉树的遍历/4_Binary_Tree_Level_Order_Traversal.cpp)
+    * 递归/迭代
+5. [5_Binary_Tree_Level_Order_Traversal_II](by_tags/树/二叉树的遍历/5_Binary_Tree_Level_Order_Traversal_II.cpp)
+    * 第四问的基础上, reserve一下result就好
+6. [Binary_Tree_Zigzag_Level_Order_Traversal](by_tags/树/二叉树的遍历/6_Binary_Tree_Zigzag_Level_Order_Traversal.cpp)
+    * 加一个left2right的flag
+7. [Recover_Binary_Search_Tree](by_tags/树/二叉树的遍历/7_Recover_Binary_Search_Tree.cpp)
+    * hard ,mirror遍历
+8. [Same_Tree](by_tags/树/二叉树的遍历/8_Same_Tree.cpp)
+    * easy 迭代或者遍历都可以
+9. [Symmetric_Tree](by_tags/树/二叉树的遍历/9_Symmetric_Tree.cpp)    
+    * 两个指针pq
+10. [Balanced_Binary_Tree](by_tags/树/二叉树的遍历/10_Balanced_Binary_Tree.cpp)
+    * 如果是平衡的,则返回高度,否则返回-1,递归.
+11. [Flatten_Binary_Tree_to_Linked_List](by_tags/树/二叉树的遍历/11_Flatten_Binary_Tree_to_Linked_List.cpp)
+    * 明天看
     
