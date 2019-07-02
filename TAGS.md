@@ -185,5 +185,26 @@
 10. [Balanced_Binary_Tree](by_tags/树/二叉树的遍历/10_Balanced_Binary_Tree.cpp)
     * 如果是平衡的,则返回高度,否则返回-1,递归.
 11. [Flatten_Binary_Tree_to_Linked_List](by_tags/树/二叉树的遍历/11_Flatten_Binary_Tree_to_Linked_List.cpp)
-    * 明天看
+    * 递归版本的好容易理解
+12. ***
+
+## 二叉树的构建
+1. [Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal](by_tags/树/二叉树的构建/1_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.cpp)
+    * 递归函数,从左往右
+2. [Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal](by_tags/树/二叉树的构建/2_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.cpp)
+    * go die
     
+## 二叉查找树
+1. [Unique_Binary_Search_Trees](by_tags/树/二叉查找树/1_Unique_Binary_Search_Trees.cpp)
+    * 以i为根节点的二叉树,其左子树由[1...i-1]构成,右子树由[i+1...n]组成,所以可以推出其递归公式
+2. [Unique_Binary_Search_Trees_II](by_tags/树/二叉查找树/2_Unique_Binary_Search_Trees_II.cpp)
+    * 递归
+3. [Validate_Binary_Search_Tree](by_tags/树/二叉查找树/3_Validate_Binary_Search_Tree.cpp)
+    * 递归 注意函数的编写,三个参数,第一个参数传入节点的地址,第二个参数如果是左子树,那么就lower否则就upper
+    * min max的传入方式
+4. [Convert_Sorted_Array_to_Binary_Search_Tree](by_tags/树/二叉查找树/4_Convert_Sorted_Array_to_Binary_Search_Tree.cpp)
+    * 递归, 二分法  
+5. [Convert_Sorted_List_to_Binary_Search_Tree](by_tags/树/二叉查找树/6_Convert_Sorted_List_to_Binary_Search_Tree.cpp)
+    * 因为给的是链表,所以不能随机访问,分治法
+    
+##
