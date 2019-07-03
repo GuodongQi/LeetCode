@@ -207,4 +207,21 @@
 5. [Convert_Sorted_List_to_Binary_Search_Tree](by_tags/树/二叉查找树/6_Convert_Sorted_List_to_Binary_Search_Tree.cpp)
     * 因为给的是链表,所以不能随机访问,分治法
     
-##
+## 二叉树的递归
+
+二叉树适合用递归,二叉树的先序中序后续可以看成DFS
+
+1. [Minimum_Depth_of_Binary_Tree](by_tags/树/二叉树的递归/1_Minimum_Depth_of_Binary_Tree.cpp)
+    * 使用递归, 输入两个参数,第一个参数是树的节点,第二个参数是是否有brother;
+2. [Maximum_Depth_of_Binary_Tree](by_tags/树/二叉树的递归/2_Maximum_Depth_of_Binary_Tree.cpp)   
+    * 和第一小问类似, 答案的解法更简洁
+3. [Path_Sum](by_tags/树/二叉树的递归/3_Path_Sum.cpp)
+    * 注意起始条件,特殊情况,当树为[] sum为0时,答案为false
+4. [Path_Sum_II](by_tags/树/二叉树的递归/4_Path_Sum_II.cpp)
+    * 递归,因为是个二位数组,所以要有个cur变量
+5. [Binary_Tree_Maximum_Path_Sum](by_tags/树/二叉树的递归/5_Binary_Tree_Maximum_Path_Sum.cpp)
+    * 难题,就像找到最大的连续序列和.
+6. [Populating_Next_Right_Pointers_in_Each_Node](by_tags/树/二叉树的递归/6_Populating_Next_Right_Pointers_in_Each_Node.cpp)
+    * 参考答案,不难,递归
+7. [Sum_Root_to_Leaf_Numbers](by_tags/树/二叉树的递归/7_Sum_Root_to_Leaf_Numbers.cpp)
+    * 第18 19 行的判断很关键
