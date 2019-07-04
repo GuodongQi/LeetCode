@@ -243,3 +243,9 @@
 7. [Sort_Colors](by_tags/排序/7_Sort_Colors.cpp)
     * 第一种方法,是统计 0 1 2 的个数,然后再遍历一遍写进去.
     * 第二种方法, 两个指针,一个是red 一个是blue,往中间走.
+
+## 查找
+1. [Search_for_a_Range](by_tags/查找/1_Search_for_a_Range.cpp)
+    * 已经排好序,所以使用二分法.
+    * 于是lower_bound 和 upper_bound的用法 
+2. []()
