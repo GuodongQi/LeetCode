@@ -248,4 +248,19 @@
 1. [Search_for_a_Range](by_tags/查找/1_Search_for_a_Range.cpp)
     * 已经排好序,所以使用二分法.
     * 于是lower_bound 和 upper_bound的用法 
-2. []()
+2. [Search_Insert_Position](by_tags/查找/2_Search_Insert_Position.cpp)
+    * 就是实现lower_bound方法
+3. [Search_a_2D_Matrix](by_tags/查找/3_Search_a_2D_Matrix.cpp) 
+    * 二分法,可以在整个矩阵上进行二分,这样简单点
+
+## 暴力枚举
+1. [Subsets](by_tags/暴力枚举法/1_Subsets.cpp)
+    * 递归的时候,要注意输入的参数, 4个, 其中一个还有子集的大小.
+    * 还有迭代的方法,没看懂
+2. [SubsetsII](by_tags/暴力枚举法/2_SubsetsII.cpp)
+    * 递归,dfs,这个方法用在1上居然更快
+3. [Permutations](by_tags/暴力枚举法/3_Permutations.cpp)
+    * 关键是结束条件,在什么情况下,res可以推进path
+    * 然后使用find函数
+4. [Permutations](by_tags/暴力枚举法/4_PermutationsII.cpp)
+    * 明天看 
