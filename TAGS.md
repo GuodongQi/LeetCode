@@ -225,3 +225,21 @@
     * 参考答案,不难,递归
 7. [Sum_Root_to_Leaf_Numbers](by_tags/树/二叉树的递归/7_Sum_Root_to_Leaf_Numbers.cpp)
     * 第18 19 行的判断很关键
+
+## 排序
+1. [Merge_Sorted_Array](by_tags/排序/1_Merge_Sorted_Array.cpp)
+    * 从后往前, 然后判断条件是nums1 nums2 的索引值是否大于0
+2. [Merge_Two_Sorted_Lists](by_tags/排序/2_Merge_Two_Sorted_Lists.cpp)
+    * 最后在赋值的时候,可以用?表达式,同时直接将下个节点复制到元节点,不用循环
+3. [Merge_k_Sorted_Lists](by_tags/排序/3_Merge_k_Sorted_Lists.cpp)
+    * 没啥好说的, 分治法就行了
+4. [Insertion_Sort_List](by_tags/排序/4_Insertion_Sort_List.cpp)
+    * 虽然演示是从后往前插入,但是还是要从前往后插入才行,因为这个没有前向列表.
+    * debug 一脸蒙蔽...
+5. [Sort_List](by_tags/排序/5_Sort_List.cpp)
+    * 单链表适合规并排序,双链表适合快速排序.
+6. [First_Missing_Positive](by_tags/排序/6_First_Missing_Positive.cpp)
+    * 桶排序
+7. [Sort_Colors](by_tags/排序/7_Sort_Colors.cpp)
+    * 第一种方法,是统计 0 1 2 的个数,然后再遍历一遍写进去.
+    * 第二种方法, 两个指针,一个是red 一个是blue,往中间走.
