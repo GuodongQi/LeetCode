@@ -264,3 +264,7 @@
     * 然后使用find函数
 4. [Permutations](by_tags/暴力枚举法/4_PermutationsII.cpp)
     * 明天看 
+5. [Combinations](by_tags/暴力枚举法/5_Combinations.cpp)
+    * dfs
+6. [Letter_Combinations_of_a_Phone_Number](by_tags/暴力枚举法/6_Letter_Combinations_of_a_Phone_Number.cpp)
+    * dfs 第25行的第三个参数为什么是k而不是k+1需要好好揣摩.
