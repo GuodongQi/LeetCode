@@ -268,3 +268,14 @@
     * dfs
 6. [Letter_Combinations_of_a_Phone_Number](by_tags/暴力枚举法/6_Letter_Combinations_of_a_Phone_Number.cpp)
     * dfs 第25行的第三个参数为什么是k而不是k+1需要好好揣摩.
+
+## 广度优先查找
+1. [Word_Ladder](by_tags/广度优先查找/1_Word_Ladder.cpp)
+    * 使用一个queue hard
+2. [Word_LadderII](by_tags/广度优先查找/2_Word_LadderII.cpp)
+    * 我选择放弃
+3. [Surrounded_Regions](by_tags/广度优先查找/3_Surrounded_Regions.cpp)
+    * 先检查最外圈,然后把o设置成1,然后再依次检查内圈
+#### 小结
+广度优先查找不像深度优先查找,没有递归的本质. 一般都是求解最短最小的问题.
+模板看pdf或者网上找(推荐).
