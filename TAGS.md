@@ -279,3 +279,12 @@
 #### 小结
 广度优先查找不像深度优先查找,没有递归的本质. 一般都是求解最短最小的问题.
 模板看pdf或者网上找(推荐).
+1. [Palindrome_Partitioning](by_tags/深度优先查找/1_Palindrome_Partitioning.cpp)
+    * 隔板法, 左边的第一个元素肯定会参与,不是那种求最长字串的那种
+2. [Unique_Paths](by_tags/深度优先查找/2_Unique_Paths.cpp)
+    * 深搜,也就是递归,会超时. 用动态规划会好点. 可以加个缓存,变成备忘录法
+3. [Unique_PathsII](by_tags/深度优先查找/3_Unique_PathsII.cpp)
+    * 当有障碍时,说明通向这条路的方法变成0,强制变成0就好.另外,dfs时,返回的类型设置为int 
+    * 还是动态规划耗时短.
+4. []()
+    
