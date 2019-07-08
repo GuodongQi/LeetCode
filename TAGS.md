@@ -286,5 +286,33 @@
 3. [Unique_PathsII](by_tags/深度优先查找/3_Unique_PathsII.cpp)
     * 当有障碍时,说明通向这条路的方法变成0,强制变成0就好.另外,dfs时,返回的类型设置为int 
     * 还是动态规划耗时短.
+4. [4_N_queen](by_tags/深度优先查找/4_N_queen.cpp)
+    * 三个缓存,主对角线,副对角线,以及一行 作为缓存
+5. [5_N_QueenII](by_tags/深度优先查找/5_N_QueensII.cpp)
+    * 和上一题对比起来就是不用输出每个结果,只输出结果的总数
+6. [Restore_IP_Addresses](by_tags/深度优先查找/6_Restore_IP_Addresses.cpp)
+    * 必须走到底,才能发现是不是有效的地址. 答案的path vector<string>值得参考
+7. [Combination_Sum](by_tags/深度优先查找/7_Combination_Sum.cpp)
+    * 略,简单. 相同的代码,别人可以faster than 70%,原因是因为先排序,中间在循环里有一步骤可以提前剪枝
+8. [Combination_Sum_II](by_tags/深度优先查找/8_Combination_Sum_II.cpp)
+    * 关于判断是不是重复, 不能用list\[i-1\]==list\[i\],因为可能会消掉\[1,1,2\]这种的答案,使用prev参数很好,参看答案.
+9. [Generate_Parentheses](by_tags/深度优先查找/9_Generate_Parentheses.cpp)
+    * 注意剪枝判断条件.
+10. [Sudoku_Solver](by_tags/深度优先查找/10_Sudoku_Solver.cpp)
+    * 在判断是否合法的时候,只判断ij处填充的数字是否合法就行,其他地方不用判断
+11. [Word_Search](by_tags/深度优先查找/11_Word_Search.cpp)
+    * 剪枝条件,  if (k == word.length() - 1) return true;  // found the last char
+    * 另外还可以使用额外的参数,来储存是否使用.
+
+## 分治法
+1. []()
+2. []()
+3. []()
 4. []()
+5. []()
+6. []()
+7. []()
+8. []()
+
+
     
