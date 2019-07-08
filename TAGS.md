@@ -311,12 +311,19 @@
     * 使用二分法要考虑的边界太多,使用牛顿法最好
     
 ## 贪心法
-1. []()
-2. []()
-3. []()
-4. []()
-5. []()
-6. []()
+1. [Jump_Game](by_tags/贪心法/1_Jump_Game.cpp)
+    * 还是用动态规划省心, 注意状态是指从0到终点所剩余的步数,这样才容易列状态方程.
+2. [Jump_Game_II](by_tags/贪心法/2_Jump_Game_II.cpp)
+    * 贪心, 用left,right表示当前步数能到的区间范围.
+3. [Best_Time_to_Buy_and_Sell_Stock](by_tags/贪心法/3_Best_Time_to_Buy_and_Sell_Stock.cpp)
+    * 贪心法, 最低点买入, 更新最低点
+4. [Best_Time_to_Buy_and_Sell_Stock_II](by_tags/贪心法/4_Best_Time_to_Buy_and_Sell_Stock_II.cpp)
+    * 贪心法, 只要后一天比前一天价格高,就可以买进卖出.
+5. [Longest_Substring_Without_Repeating_Characters](by_tags/贪心法/5_Longest_Substring_Without_Repeating_Characters.cpp)
+    * 涉及到字符串,因此可以设置数组,索引为字符串.
+6. [Container_With_Most_Water](by_tags/贪心法/6_Container_With_Most_Water.cpp)
+    * 使用两个指针, 面积只取决于最小短板,因此可以将比较两边短板,较小的短板移动
+
 
 
     
