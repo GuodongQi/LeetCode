@@ -324,6 +324,43 @@
 6. [Container_With_Most_Water](by_tags/贪心法/6_Container_With_Most_Water.cpp)
     * 使用两个指针, 面积只取决于最小短板,因此可以将比较两边短板,较小的短板移动
 
+## 动态规划
+1. [1_Triangle](by_tags/动态规划/1_Triangle.cpp)
+    * 注意边界条件,另外也可以从后往前递归.
+2. [Maximum_Subarray](by_tags/动态规划/2_Maximum_Subarray.cpp)
+    * 开启一个数组用来储存前n项字串最大和,如果字串和大于零,说明有贡献,字串可以加上
+3. [Palindrome_Partitioning_II](by_tags/动态规划/3_Palindrome_Partitioning_II.cpp)
+    * i从0到n之间的回文,然后j从0到i,分别判断回文和递归公式.
+4. [Maximal_Rectangle](by_tags/动态规划/4_Maximal_Rectangle.cpp)
+    * 占个坑
+5. [Best_Time_to_Buy_and_Sell_Stock_III](by_tags/动态规划/5_Best_Time_to_Buy_and_Sell_Stock_III.cpp)
+    * pdf给的解析特别赞,分成两段.
+6. [Interleaving_String](by_tags/动态规划/6_Interleaving_String.cpp)
+    * pdf讲解的很好,一定要看看
+7. [Scramble_String](by_tags/动态规划/7_Scramble_String.cpp)
+    * 占坑
+8. [Minimum_Path_Sum](by_tags/动态规划/8_Minimum_Path_Sum.cpp)
+    * 常规的动态规划, 使用动态数组会简便点
+9. [Edit_Distance](by_tags/动态规划/9_Edit_Distance.cpp)
+    * 这题的关键是状态的确定. 设f\[i]\[j]为word1\[0:i] word\[0:j]之间的最小距离,此时便
+    可以分成3种情况
+        ** 如果c==d,说明不需要操作, 则f\[i]\[j] = f\[i-1]\[j-1]
+        ** 如果c!=d,
+            如果需要删除操作,c替换成d,则 f\[i]\[j]=f\[i-1]\[j-1]+1; 如果c后面增添,则说明 f\[i]\[j]=f\[i]\[j-1]+1; 如果c后面删除,则说明
+            f\[i]\[j]=f\[i-1]\[j]+1
+10. [Decode_Ways](by_tags/动态规划/10_Decode_Ways.cpp)
+    * 类似菲波纳契数列,但是得对prev判断
+11. [Distinct_Subsequences](by_tags/动态规划/11_Distinct_Subsequences.cpp)
+    * 虽然标的是hard,但是掌握了套路就行.形如第9题,这样设置状态
+12. []()
+13. []()
 
 
-    
+
+## 语法总结
+1. f[m][n]数组填充方法 <br>
+    `fill_n(&f[0][0], m*n, 0);`
+2. vector 转 unordered_set <br>
+  `unordered_set<string> dict(wordList.begin(),wordList.end());`
+3. 
+       
