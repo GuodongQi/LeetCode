@@ -352,14 +352,18 @@
     * 类似菲波纳契数列,但是得对prev判断
 11. [Distinct_Subsequences](by_tags/动态规划/11_Distinct_Subsequences.cpp)
     * 虽然标的是hard,但是掌握了套路就行.形如第9题,这样设置状态
-12. []()
-13. []()
+12. [Word_Break](by_tags/动态规划/12_Word_Break.cpp)
+    * dfs 或 动态规划
+13. [Word_BreakII](by_tags/动态规划/13_Word_BreakII.cpp)
+    * dfs 注意边界条件
 
 
 
-## 语法总结
+## 语法总结 
 1. f[m][n]数组填充方法 <br>
     `fill_n(&f[0][0], m*n, 0);`
+2. 多个vector初始化 <br>
+    vector(m, vector<int>(n, 0 ))
 2. vector 转 unordered_set <br>
   `unordered_set<string> dict(wordList.begin(),wordList.end());`
 3. 
