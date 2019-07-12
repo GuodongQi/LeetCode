@@ -357,7 +357,9 @@
 13. [Word_BreakII](by_tags/动态规划/13_Word_BreakII.cpp)
     * dfs 注意边界条件
 
-
+## 图
+1. [Clone_Graph](by_tags/图/1_Clone_Graph.cpp)
+    * 图的遍历,dfs或者bfs. 用一个hash表储存节点,当节点存在时,说明已经copy过,无需要再copy,如果不存在则拷贝.
 
 ## 语法总结 
 1. f[m][n]数组填充方法 <br>
@@ -366,5 +368,5 @@
     vector(m, vector<int>(n, 0 ))
 2. vector 转 unordered_set <br>
   `unordered_set<string> dict(wordList.begin(),wordList.end());`
-3. 
+3.  
        
