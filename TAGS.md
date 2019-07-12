@@ -361,12 +361,59 @@
 1. [Clone_Graph](by_tags/图/1_Clone_Graph.cpp)
     * 图的遍历,dfs或者bfs. 用一个hash表储存节点,当节点存在时,说明已经copy过,无需要再copy,如果不存在则拷贝.
 
+## 细节实现题
+1. [Reverse_Integer](by_tags/细节实现题/1_Reverse_Integer.cpp)
+    * 边界条件很恶心... longlong t = x , 然后注意不能使用t = -x,应该是 t=-t;
+2. [Palindrome_Number](by_tags/细节实现题/2_Palindrome_Number.cpp)
+    * 关键是 首位和末尾,如何取出,末尾好办,直接求余.首位需要计算位数d, 位数的计算,参考代码
+3. [Insert_Interval](by_tags/细节实现题/3_Insert_Interval.cpp)
+    * 通过比较 if(intervals[i][1]<newInterval[0]) { l = i; }
+    if(intervals[i][0]>newInterval[1]) { r = i; break;}
+    得到区间索引. 然后再次比较  
+    newInterval[0] = min(newInterval[0], intervals[l+1][0]);
+    newInterval[1] = max(newInterval[1], intervals[r-1][1])
+    得到新的片段的应该是多少.
+    然后使用intervals.erase 和 intervals.insert
+4. [Merge_Intervals](by_tags/细节实现题/4_Merge_Intervals.cpp)
+    * sort用法 sort(intervals.begin(), intervals.end(),[](vector<int> &x, vector<int> &y){ return x[0]<y[0]; });
+    * 排序好后就简单了
+5. [Minimum_Window_Substring](by_tags/细节实现题/5_Minimum_Window_Substring.cpp)
+    * 创建两个数组,储存ascII码, 当遇到字符的时候,就加一.因为和字符顺序美观. 
+    * 两个指针扫描,先扫描右   指针,直到符合了条件了,然后移动左指针.压缩到最小.
+    * 两外leetcode提供的方法2可以看看.创建一个字典,索引为字符的位置,值为该字符.    
+6. [Multiply_Strings](by_tags/细节实现题/6_Multiply_Strings.cpp)
+    * 如果a是n位,b是m位,则乘积最多为n+m位
+    * a的第2位诚意b的时候,结果在2+i位,另外注意进位.
+    *因为将结果设为string,所以可以使用substr()
+7. [Substring_with_Concatenation_of_All_Words](by_tags/细节实现题/7_Substring_with_Concatenation_of_All_Words.cpp)
+    * hash map 的应用
+8. [Pascal's_Triangle](by_tags/细节实现题/8_Pascal's_Triangle.cpp)
+    * 左右两遍全插入1,然后动态规划.
+9. [Pascal's_TriangleII](by_tags/细节实现题/9_Pascal's_Triangle_II.cpp)
+    * 和上一题类似. 滚动数组可以了解.
+10. [Spiral_Matrix](by_tags/细节实现题/10_Spiral_Matrix.cpp)
+    * 看答案
+11. [Spiral_Matrix_II](by_tags/细节实现题/11_Spiral_Matrix_II.cpp)
+    * 和上一题一样.关键是先生成matrix
+12. [Zig_Zag_Conversion](by_tags/细节实现题/12_Zig_Zag_Conversion.cpp)
+    * 找规律,面试不可能出现
+13. [Divide_Two_Integers](by_tags/细节实现题/13_Divide_Two_Integers.cpp)
+    * 使用位运算翻倍, 边界条件.使用long
+14. [Text_Justification](by_tags/细节实现题/14_Text_Justification.cpp)
+    * For each line, I first figure out which words can fit in. According to the code, these words are words[i] through words[i+k-1]. Then spaces are added between the words. The trick here is to use mod operation to manage the spaces that can't be evenly distrubuted: the first (L-l) % (k-1) gaps acquire an additional space.
+15. [Max_Points_on_a_Line](by_tags/细节实现题/15_Max_Points_on_a_Line.cpp)
+    * 遍历每个点，得到这个点与其他点斜率，并保存到solpeMap中，斜率为键，值为个数,//并为每个solpeMap定义一个变量，保存这个map中值最大的值(maxCount)，每次加入map时更新这个最大值, 每次到solpeMap的最后用maxCount更新res;
+
+
 ## 语法总结 
 1. f[m][n]数组填充方法 <br>
     `fill_n(&f[0][0], m*n, 0);`
 2. 多个vector初始化 <br>
     vector(m, vector<int>(n, 0 ))
-2. vector 转 unordered_set <br>
+    vector<vector<int> > matrix(n, vector<int>(n)); 只定义不初始化
+3. vector 转 unordered_set <br>
   `unordered_set<string> dict(wordList.begin(),wordList.end());`
-3.  
+4. sort高级用法<br>
+   `sort(intervals.begin(), intervals.end(),[](vector<int> &x, vector<int> &y){ return x[0]<y[0]; });`
+  
        
