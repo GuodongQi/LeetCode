@@ -409,8 +409,9 @@
 1. f[m][n]数组填充方法 <br>
     `fill_n(&f[0][0], m*n, 0);`
 2. 多个vector初始化 <br>
-    vector(m, vector<int>(n, 0 ))
-    vector<vector<int> > matrix(n, vector<int>(n)); 只定义不初始化
+    vector(m, vector<int>(n, 0 ))       <br>
+    vector<bool> row(m, false);        <br>
+    vector<vector<int> > matrix(n, vector<int>(n)); 
 3. vector 转 unordered_set <br>
   `unordered_set<string> dict(wordList.begin(),wordList.end());`
 4. sort高级用法<br>
